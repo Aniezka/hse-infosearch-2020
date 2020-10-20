@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+    <body>
+        <center>
+            <form>
+                Ваш запрос: <input type="text" name="query"></input><br>
+    Метод (tf-idf, bm25, w2v, d2v): <input type="text" name="methodType"></input><br>
+                <button type="submit">Search</button>
+            </form><br><br>
+        </center>
+        <center><big><u><b> Зададим параметры и увидим ТОП 20</b></u><br><br></big></center>
+            {% for num,title in links %}
+            <a target="_blank"><b>Номер связки запроса:</b> {{ num}}<a><br>
+            <a target="_blank"><b>Текст запроса:</b> <br>{{ title }}<a><br><p>
+            {% endfor %}
+    </body>
+</html>
