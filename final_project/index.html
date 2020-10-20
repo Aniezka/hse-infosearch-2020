@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+    <body>
+        <form>
+            Your query: <input type="text" name="query"></input><br>
+Method (tf-idf, bm25, w2v, d2v): <input type="text" name="methodType"></input><br>
+            <button type="submit">Search</button>
+        </form>
+
+        {% for num,title in links %}
+            <a target="_blank">Номер связки запроса: {{ num}}<a><br>
+	    <a target="_blank">Текст ближайшего запроса: {{ title }}<a><br>
+        {% endfor %}
+    </body>
+</html>
