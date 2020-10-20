@@ -14,3 +14,5 @@ python3 create_matrices.py
 
 After this you can run the server with the command:
 python3 app.py
+
+Quieries: https://yadi.sk/d/uE28wE_BTrjx6w
