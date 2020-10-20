@@ -24,3 +24,4 @@ After this you can run the server with the command:
 ```python
 python3 app.py
 ```
+Queries: https://yadi.sk/d/uE28wE_BTrjx6w
