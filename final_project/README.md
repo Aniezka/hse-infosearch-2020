@@ -15,4 +15,4 @@ python3 create_matrices.py
 After this you can run the server with the command:
 python3 app.py
 
-Queries: https://yadi.sk/d/uE28wE_BTrjx6w
+Query matrices: https://yadi.sk/d/uE28wE_BTrjx6w
