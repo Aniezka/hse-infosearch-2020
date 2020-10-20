@@ -1,3 +1,5 @@
+# Flask search engine
+
 A simple search engine for the covid-19 dataset.
 
 ## Download and run
